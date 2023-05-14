@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  height: 50vh;
+  background-color: #0ff;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

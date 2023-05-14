@@ -23,3 +23,28 @@
 => Async allows your script to run as soon as it's loaded, without blocking other elements on the page. Defer means your script will only execute after the page has finished loading. In most cases, async is the better option — but there are exceptions.
 
 9. Package lock.json is a very important file. It locks the version and never have to keep it in git ignore.
+
+10. HMR - Hot Module Replacement -- Hot Module Replacement (HMR) allows your web components to be updated as you develop, without needing a full refresh of the browser. It is done by FIle Watcher Algorithm written in C++.
+
+11. .parcel-cache is the space for parcel to do all the things and dist folder contains all the minified versions of the files.
+
+12. Parcel - Hot Module Reload using File Watcher Algorithm 
+&& Created a server for you with Hot reload
+&& Bundling 
+&& Minfiy 
+&& Cleaning our code 
+&& Dev and Production build 
+&& Super Fast Algorithm 
+&& Image Optimization 
+&& Caching While development
+&& Compression
+&& Compatible with older version of browser
+&& We can also build https on local dev machine - npx parcel index.html --https
+&& Manages Port Number
+&& We should put .parcel-cache in our .gitignore because it will be auto-generate. // Anything which will be auto-generate we'll put it inside .gitignore.
+&& Consistent Hashing Algorithm
+&& Zero Config Bundler
+
+12. Transitive dependencies - A dependency that is not directly used in your project, but brought in by other third-party components.
+
+

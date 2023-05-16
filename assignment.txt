@@ -50,6 +50,21 @@
 
 // React.createElement gives us an object => Obejct is then converted into HTML code and inject the code in the DOM.
 
-//JSX is a HTML like syntax inside JavaScript but it is not JavaScript. 
+//JSX is a HTML like syntax inside JavaScript but it is not JavaScript. JSX uses React.createElement behind the scenes and converted into object and into HTML code and inject the code in the DOM. This is done by BABEL.
+
+// There are two package-lock.json in React project one which maintain exact version of all the dependencies our project have but the package-lock.json in node-module folder mainatin the Transitive dependency of the project.
+
+// const Heading = (
+    <h1>Hello World!</h1>
+); --- This is known as React elements
+
+// React Components --- 1. Functional Based -- New Way of Writting Code -- Name of Functional Component starts with Capital letter.
+                        2. Class Based Components
+
+// At the end of the day React Element is just an object and React Functional Component is just an Function.
+
+// If we have to use a component inside a component it is called component composition.
+
+
 
 

@@ -29,7 +29,7 @@
 11. .parcel-cache is the space for parcel to do all the things and dist folder contains all the minified versions of the files.
 
 12. Parcel - Hot Module Reload using File Watcher Algorithm 
-&& Created a server for you with Hot reload
+&& Created a server for you with Hot reload 
 && Bundling 
 && Minfiy 
 && Cleaning our code 
@@ -44,7 +44,12 @@
 && We should put .parcel-cache in our .gitignore because it will be auto-generate. // Anything which will be auto-generate we'll put it inside .gitignore.
 && Consistent Hashing Algorithm
 && Zero Config Bundler
+&& Tree Shaking - Removing Unwanted Code
 
 12. Transitive dependencies - A dependency that is not directly used in your project, but brought in by other third-party components.
+
+// React.createElement gives us an object => Obejct is then converted into HTML code and inject the code in the DOM.
+
+//JSX is a HTML like syntax inside JavaScript but it is not JavaScript. 
 
 

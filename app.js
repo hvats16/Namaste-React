@@ -4,23 +4,13 @@ const heading1 = React.createElement(
 	"h1",
 	{
 		id: "heading1",
+		key: "h1",
 	},
 	"Heading 2"
 );
-const heading2 = React.createElement(
-	"h1",
-	{
-		id: "heading1",
-	},
-	"Heading 2"
-);
-const conatainer = React.createElement(
-	"div",
-	{
-		id: "container",
-	},
-	[heading1, heading2]
-);
-console.log(heading1);
+
+const Heading = <h1>Hello World!</h1>;
+
+console.log(Heading);
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(conatainer);
+root.render(Heading);

@@ -3,11 +3,15 @@
 	"version": "1.0.0",
 	"description": "",
 	"scripts": {
-		"test": "jest"
+		"test": "jest",
+		"dev": "parcel index.html",
+		"build": "parcel build index.html"
 	},
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
+		"@babel/core": "^7.21.8",
+		"babel-plugin-transform-remove-console": "^6.9.4",
 		"parcel": "^2.8.3",
 		"process": "^0.11.10"
 	},

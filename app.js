@@ -1,29 +1,67 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const Heading = (
-	<>
-		<h1>Hello World!</h1>
-		<h2>Hello h2</h2>
-	</>
+/** 
+			Header
+				-Logo
+				-Nav ListItems(Right Side)
+				-Cart
+			Body 
+				-SearchBar
+				-Restraunt List
+					-RestroCard 
+						-Image
+						-Description
+						-Rating
+						-Cushines 
+			Footer
+				-Links
+				-Copyright
+	*/
+
+const Title = () => (
+	<a href="/">
+		<img
+			className="logo"
+			src="https://i.pinimg.com/474x/e6/17/f1/e617f1bfb9af4d9cf132cd3dec0da072.jpg"
+			alt="Logo"
+		/>
+	</a>
 );
 
-const HeaderComponent1 = () => {
+const Header = () => {
+	return (
+		<div className="header">
+			<Title />
+			<div className="nav-items">
+				<ul>
+					<li>Home</li>
+					<li>About</li>
+					<li>Contact</li>
+					<li>Cart</li>
+				</ul>
+			</div>
+		</div>
+	);
+};
+
+const Body = () => {
+	return <h4>Body</h4>;
+};
+
+const Footer = () => {
+	return <h4>Footer</h4>;
+};
+
+const AppLayout = () => {
 	return (
 		<>
-			<h1>Header1</h1>
+			<Header />
+			<Body />
+			<Footer />
 		</>
 	);
 };
 
-const HeaderComponent2 = () => (
-	<>
-		{Heading}
-		{/* {HeaderComponent1()} */}
-		<HeaderComponent1 />
-		<h1>Header2</h1>
-	</>
-);
-console.log(Heading);
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<HeaderComponent2 />);
+root.render(<AppLayout />);

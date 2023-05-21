@@ -65,6 +65,8 @@
 
 // If we have to use a component inside a component it is called component composition.
 
+// JSX have only one parent.
+
 
 
 

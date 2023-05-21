@@ -1,12 +1,19 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+	border: 1px solid black;
 }
-#container {
-  display: flex;
-  background-color: aqua;
-  justify-content: space-around;
-  align-items: center;
-  height: 50vh;
+
+.nav-items > ul {
+	list-style-type: none;
+	display: flex;
+}
+
+.nav-items > ul > li {
+	padding: 10px;
+}
+
+.logo{
+  width: 100px;
 }

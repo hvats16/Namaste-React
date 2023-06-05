@@ -67,6 +67,14 @@
 
 // JSX have only one parent.
 
+//Config Driven UI 
+
+//Optional Chaining
+
+// no key <<<<<<<<<<<<<<<<< index key <<<<<<<<< unique key (Best pratice)
+
+
+
 
 
 

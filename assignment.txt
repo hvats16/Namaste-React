@@ -74,6 +74,34 @@
 // no key <<<<<<<<<<<<<<<<< index key <<<<<<<<< unique key (Best pratice)
 
 
+/**
+     Header
+        - Logo(Title)
+        - Nav Items(Right Side)
+        - Cart
+     Body 
+        - Search bar
+        - RestrauntList
+          - RestaurantCard (many cards)
+              - Image
+              - Name
+              - Rating
+              - Cusines
+     Footer
+      - links
+      - Copyright
+    
+    */
+
+// Composing Comopnentss
+
+//Config Driven UI
+
+
+
+// no key (not acceptable)<<<<<<<<<<< index key(last option) <<<<< unquie key (best practice)
+
+
 
 
 

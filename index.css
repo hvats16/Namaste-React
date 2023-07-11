@@ -209,3 +209,7 @@
 		background-position: 140px;
 	}
 }
+
+.menu{
+	display: flex;
+}

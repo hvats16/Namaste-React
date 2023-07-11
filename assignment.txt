@@ -101,6 +101,15 @@
 
 // no key (not acceptable)<<<<<<<<<<< index key(last option) <<<<< unquie key (best practice)
 
+// Never ever write a useState inside if-else or inside a for-loop.
+// UseState is a hook that is used to create local state variable inside search text.
+// Formik - For forms
+
+//Client Side Routing AND Server Side Routing
+
+// Server-Side-Routing == In Server side Routing all our pages comes from Server
+// Client Side Routing == In client side Routing all our components are already in our code.
+
 
 
 

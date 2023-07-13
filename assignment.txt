@@ -111,7 +111,25 @@
 // Client Side Routing == In client side Routing all our components are already in our code.
 
 
+// The most important part of class based component is render method.
+
+// We never mutate state directly. React has to keep a track of your state to do the reconcillation
+
+//The major difference in CommonJS and ES module is of synchronous and asynchronous nature, which might affect performance: --CommonJS modules are synchronous, which isn't an issue in the case of small module execution. However it can delay execution for larger modules.
+Loading and parsing of ES modules is asynchronous.
 
 
+// Never Compare your lifecycle methods to Functional Components
 
+//ComponentWillUnmount will call when we change the component
 
+// When we are changing the pages or components it won't reloading so we have to clear the intervals of the timeouts. And everytime we come on that page it will twice the intervals. And we have to clear interval in ComponentWillUnmount using this... it will refer to that interval.
+Ex - this.timer = setInterval(()=>{console.log("Hi:)},1000);
+clearInterval(this.timer);
+
+// And in case of useEffect(()=>{
+  let timer = setInterval(()=>{console.log("Hi:)},1000);
+  return()=>{
+    clearInterval(timer);
+  }
+})

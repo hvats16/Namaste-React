@@ -43,7 +43,7 @@ Let's set up the project in a quick time by following the steps below & spend al
 2. Click on `code` dropdown and copy the link to your repo.
 3. Clone the repo into local machine.
 ```
-git clone "https://github.com/Learn-React-With-Harshi/Namaste-React.git"
+git clone "https://github.com/hvats16/Namaste-React"
 ```
 
 4. Go to the project directory 
